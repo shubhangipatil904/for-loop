@@ -1,1 +1,39 @@
 # for-loop
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace CSharp_Shell
+{
+
+    public class Program 
+    {
+        public static void Main()
+        {
+        	Console.WriteLine("Enter Number");
+			int n = Convert.ToInt32(Console.ReadLine());
+			
+			
+				for (int i = 1; i <= n; i++)
+				{
+					Console.WriteLine("Hello");
+				}
+        	
+			
+        }
+    }
+}
+Output:-
+Enter Number
+9
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+
